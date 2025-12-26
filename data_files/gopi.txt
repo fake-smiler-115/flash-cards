@@ -1,0 +1,3 @@
+ques: who is cm  ans: cm
+ques: what is x  ans: 1000
+ques: nothing  ans: u

@@ -1,0 +1,5 @@
+ques: what is the name of person with pin no : 115  ans: chiru
+ques: what is the name of the person with pin no : 104  ans: praveen
+ques: pin no : 100  ans: srikanth
+ques: pin no : 94  ans: mohanthi
+ques: pin no : 111   ans: gopi
