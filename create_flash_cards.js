@@ -40,13 +40,19 @@ const dataCreateMode = (mode) => {
   if (mode === 2) {
     console.log('\n ENTER "help" FOR  HELP TO IMPORT DATA FILE \n\n');
     const path = prompt("Enter The Path Correctly");
-    if (path === 'help') {
+    if (path === "help") {
       displayInstructions();
       return dataCreateMode(2);
     }
     const deckName = getDeckName();
-    const dataToAppend = Deno.readTextFileSync("/" + path);
-    appendToFile(deckName, dataToAppend);
+    try {
+      const dataToAppend = Deno.readTextFileSync("/" + path);
+      appendToFile(deckName, dataToAppend);
+    } catch {
+      console.clear();
+      console.log('Invalid path');
+      return dataCreateMode(2);
+    }
   }
 };
 
