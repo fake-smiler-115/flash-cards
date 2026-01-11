@@ -17,3 +17,4 @@ file :intern_state.txt attempts :1,1,3,4,2,6,1,1 time :3,4,7,6,4,10,2,2 score :7
 file :Countries.txt attempts :1,1,5,1,2 time :8,3,34,4,7 score :82
 file :intern_state.txt attempts :1,1,1,1,1,1,1,1 time :3,4,2,1,1,3,3,4 score :83
 file :intern_state.txt attempts :1,1,2,1,1,2,1,1 time :8,4,8,5,1,12,4,5 score :78
+file :intern_state.txt attempts :1,1,1,1,1,4,1,2 time :3,5,3,4,2,20,6,7 score :2

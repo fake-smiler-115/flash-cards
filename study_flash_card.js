@@ -23,7 +23,7 @@ const cardLocations = (cards) => {
 
 const evaluateAnswer = (answer, expectedAnswer, card, wrongAnsweredCards) => {
   console.clear();
-  if (answer !== expectedAnswer) {
+  if (answer.toLowerCase() !== expectedAnswer.toLowerCase()) {
     console.log("It Is Wrong ❌");
     wrongAnsweredCards.push(card);
     return;
