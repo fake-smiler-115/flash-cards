@@ -3,6 +3,6 @@ ques: pradipto  ans: bengal
 ques: sivaji  ans: ap
 ques: chiru   ans: ap
 ques: hem  ans: ap
-ques: gowtham  ans: kerala
+ques: gowtham  ans: kerela
 ques: vivek  ans: up
-ques: yash  ans: ut
+ques: yash  ans: uk

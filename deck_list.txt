@@ -3,3 +3,5 @@ imported_file.txt
 Something.txt
 intern_state.txt
 names guessing.txt
+gpt123.txt
+Countries.txt

@@ -1,0 +1,5 @@
+ques: India  ans: 
+ques: India  ans: Delhi
+ques: USA  ans: California
+ques: UAE  ans: Dubai
+ques: abcd  ans: efgh

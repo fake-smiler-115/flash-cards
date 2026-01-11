@@ -4,7 +4,7 @@ const getPattern = (number, index) => {
   if (index === number) {
     return (number + "").padStart(2);
   }
-  if (number >= index) {
+  if (number > index) {
     return color("   ");
   }
   return "   ";

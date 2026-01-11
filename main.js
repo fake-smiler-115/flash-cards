@@ -15,7 +15,11 @@ const changeMode = (mode) => {
     3 : () => displayHistory()
   }
 
-  modes[mode]();
+  try { 
+    modes[mode]();
+   } catch { console.clear();
+    console.log('Invalid Option');
+  }
 }
 
 const main = () => {
