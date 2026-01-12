@@ -5,3 +5,5 @@ intern_state.txt
 names guessing.txt
 gpt123.txt
 Countries.txt
+hello.txt
+bye.txt

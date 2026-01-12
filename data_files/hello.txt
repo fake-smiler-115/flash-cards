@@ -1,0 +1,2 @@
+ques: good  ans: morning
+ques: good  ans: afternoon

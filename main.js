@@ -1,6 +1,6 @@
-import { createFlashCards } from "./create_flash_cards.js";
-import { displayHistory } from "./history.js";
-import { studyFlashCards } from "./study_flash_card.js";
+import { createFlashCards } from "./src/create_flash_cards.js";
+import { displayHistory } from "./src/history.js";
+import { studyFlashCards } from "./src/study_flash_card.js";
 
 const displayOptions = () => {
   console.log('\t 1 : TO CREATE FLASH CARDS\n');
