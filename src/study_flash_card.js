@@ -1,4 +1,5 @@
 import { calculateStatics } from "./statics.js";
+import { levenshteinDistance } from "@std/text";
 
 const getDeckList = () => {
   const data = Deno.readTextFileSync("deck_list.txt");
@@ -23,12 +24,16 @@ const cardLocations = (cards) => {
 
 const evaluateAnswer = (answer, expectedAnswer, card, wrongAnsweredCards) => {
   console.clear();
-  if (answer.toLowerCase() !== expectedAnswer.toLowerCase()) {
-    console.log("It Is Wrong ❌");
-    wrongAnsweredCards.push(card);
+  const lowerAnswer = answer.toLowerCase();
+  const lowerExpecAnswer = expectedAnswer.toLowerCase();
+  
+  if (lowerAnswer === lowerExpecAnswer || 
+    levenshteinDistance(lowerAnswer,lowerExpecAnswer) < 3) {
+    console.log("It Is Right ✅");
     return;
   }
-  console.log("It Is Right ✅");
+  console.log("It Is Wrong ❌");
+  wrongAnsweredCards.push(card);
 };
 
 const parseCard = (card) => {
