@@ -23,3 +23,5 @@ file :bye.txt attempts :1 time :2 score :100
 file :intern_state.txt attempts :1,1,1,1,1,1,1,1 time :4,4,3,2,2,4,2,2 score :43
 file :states-capitals.txt attempts :1,1,1 time :5,7,6 score :82
 file :states-capitals.txt attempts :2,3,2 time :11,17,12 score :15
+file :states-capitals.txt attempts :1,1,1 time :5,4,2 score :12
+file :states-capitals.txt attempts :2,2,1 time :7,9,2 score :56
